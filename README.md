@@ -29,6 +29,9 @@ MEMORY LEAK (preventing) - https://www.essentialdeveloper.com/articles/the-minim
 MOCKING - Replacing any source of input, process or output with a "faked", or "mocked" version which would then facilitate the testing of code or operation of an app without backend or other necessary services.
 
 
+MVC -> MVVM (refactor) - https://academy.essentialdeveloper.com/courses/1112681/lectures/34676373
+
+
 RemoteFeedLoader - 
 
 
