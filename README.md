@@ -2,10 +2,13 @@
 Glossary of Terms for the Essential Developers Course
 
 
+CLASS METHOD - See TYPE METHOD
+
+
 COLLABORATOR - 
 
 
-DEPENDENCY INJECTION (DI) - The means by which we pass the minimally needed object reference (often some parent class object with a group of properties, for convenience) into another context.  Here are 3 examples of Dependency Injection:
+DEPENDENCY INJECTION (DI) - The means by which we pass the minimally needed object reference (often some class/struct object with a group of properties/methods or functions, for convenience) into another context.  Here are 3 examples of Dependency Injection:
 
     1.  let sut = RemoteFeedLoader(client: client) // Constuctor Injection (setting the client as part of the construction of a sut)
 
@@ -38,6 +41,9 @@ RemoteFeedLoader -
 SPY - A type that can be rendered in any of several different forms used to collect or set values in a running app for the purpose of testing and/or verifying code.
 
 
+STATIC METHOD - See TYPE METHOD
+
+
 STUB - Putting known values in place of run-time or computed values whenever run-time/computed values would be unavailable, timeconsuming to obtain (hence making the testing code slow to run), or otherwise inconvenient to use.
 
 
@@ -47,5 +53,9 @@ SUT - System Under Test
 TEST DOUBLE - 
 
 
+TYPE METHOD - static and class methods are *type methods* that can be called on the type itself (instead of an instance). The difference is that class methods can be overridden by subclasses.
 
+    From the docs:
+
+    "Instance methods [...] are methods that you call on an instance of a particular type. You can also define methods that are called on the type itself. These kinds of methods are called type methods. You indicate type methods by writing the static keyword before the method’s func keyword. Classes can use the class keyword instead, to allow subclasses to override the superclass’s implementation of that method." — https://docs.swift.org/swift-book/LanguageGuide/Methods.html
 
