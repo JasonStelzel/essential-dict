@@ -53,5 +53,11 @@ SUT - System Under Test
 TEST DOUBLE - 
 
 
+TEST TYPES - UI Testing, Unit Tests, Integration Tests and End-to-End Tests. Apple WWDC Videos on testing:
+https://developer.apple.com/videos/play/wwdc2015/406
+https://developer.apple.com/videos/play/wwdc2017/409
+https://developer.apple.com/videos/play/wwdc2018/417
+
+
 TYPE METHOD - static and class methods are *type methods* that can be called on the type itself (instead of an instance of that type). The difference between these two is that class methods can be overridden by subclasses while static methods cannot. Both of these kinds of methods are called type methods. You indicate type methods by writing the static keyword before the method’s func keyword. Classes can use the class keyword instead, to allow subclasses to override the superclass’s implementation of that method. In contrast, Instance methods are methods that you call on an *instance* of a particular type. https://docs.swift.org/swift-book/LanguageGuide/Methods.html
 
