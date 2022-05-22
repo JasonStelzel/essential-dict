@@ -38,12 +38,12 @@ MVC -> MVVM (refactor) - https://academy.essentialdeveloper.com/courses/1112681/
 RemoteFeedLoader - 
 
 
-SOLID - Acronym for the following:
-S - Single responsibility principal, that code should execute performing one responsibility and only one responsibility without artifacts.
-O - Open/Close architecture, that code should b open for extensibility, but closed for modification.
-L - Liskov Substitution principal, a dependent object should be able to have any other object of the same type or subtype substituted without issue.
-I - Interface segregation principle, an interface should not be responsible for methods it does not need to implement.
-D - Dependency Inversion Principle, high level components should not depend on low level components, they should depend on what you might call a 3rd party go-between or "abstractions", like an adapter.
+SOLID - Acronym for the following:<br>
+S - Single responsibility principal, that code should execute performing one responsibility and only one responsibility without artifacts.<br>
+O - Open/Close architecture, that code should b open for extensibility, but closed for modification.<br>
+L - Liskov Substitution principal, a dependent object should be able to have any other object of the same type or subtype substituted without issue.<br>
+I - Interface segregation principle, an interface should not be responsible for methods it does not need to implement.<br>
+D - Dependency Inversion Principle, high level components should not depend on low level components, they should depend on what you might call a 3rd party go-between or "abstractions", like an adapter.<br>
 
 
 SPY - A type that can be rendered in any of several different forms used to collect or set values in a running app for the purpose of testing and/or verifying code.
