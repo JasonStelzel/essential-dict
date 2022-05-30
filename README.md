@@ -10,12 +10,12 @@ COLLABORATOR -
 
 DEPENDENCY INJECTION (DI) - The means by which we pass the minimally needed object reference (often some class/struct object with a group of properties/methods or functions, for convenience) into another context.  Here are 3 examples of Dependency Injection:
 
-    1.  let sut = RemoteFeedLoader(client: client) // Constuctor Injection (setting the client as part of the construction of a sut)
+    1.  let sut = RemoteFeedLoader(client: client) // Preferred Constuctor Injection (setting the client as part of the construction of a sut)
 
-    2.  sut.client = client // Property Injection (setting the client property directly on the sut)
+    2.  sut.client = client // Property Injection (setting the client property directly on the sut, perhaps as an alternative when the initializer default is not desired.  Initialization/Constructor Injection is still preferred.)
 
-    3.  sut.load(client: client) // Method Injection (passing the client to the method as it is called)
-    
+    3.  sut.load(client: client) // Method Injection, setting a parameter on a method (passing the client to the method as it is called)
+
 
 FeedItem - 
 
